@@ -4,7 +4,7 @@ env:
   APP_VERSION: 0.7.2
   APP_BUILD: rc9j
 
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   build_linux:
